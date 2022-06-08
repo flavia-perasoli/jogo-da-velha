@@ -57,8 +57,10 @@ h1 {
     width: 300px;
     display: flex;
     margin-top: 30px;
-    border: 1px dotted #FFF;
-    padding: 10px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: 700;
 }
 .infoitem {
     flex: 1;
@@ -76,9 +78,11 @@ h1 {
 
 .reset {
     border: none;
-    border-radius: 14p
+    border-radius: 14px;
     background-color: rgba(0, 0, 0, 0.2);
     color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
     padding: 15px;
     margin-top: 20px;
 }
